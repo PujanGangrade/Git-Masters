@@ -1,0 +1,11 @@
+# Ignore binary executables (no file extension)
+demo_prog/**/client_*
+demo_prog/**/server_*
+demo_prog/**/command_parser
+
+# Allow all C source files and PDFs
+!demo_prog/**/*.c
+!demo_prog/**/*.pdf
+
+# Ignore DLP-related metadata
+*.sec.endpointdlp
